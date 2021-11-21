@@ -1,0 +1,46 @@
+{
+  "name": "armamap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@vue-leaflet/vue-leaflet": "^0.6.1",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "armamap@1.0.0",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!"
+}
